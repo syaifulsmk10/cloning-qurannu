@@ -1,0 +1,210 @@
+/* Reset */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+/* Navbar */
+.atass {
+  margin-bottom: 100px;
+  text-align: center;
+  height: 100px;
+  width: 1263px;
+}
+
+.logoo {
+  height: 3em;
+  margin-left: 100px;
+  color: white;
+  padding: 6px;
+}
+
+.bawah {
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0px 8px;
+  background-color: #fff;
+  width: 200px;
+  height: 30px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+/* ayat */
+
+.bismillah{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+
+
+
+.ayat {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  height: 100%;
+  padding-right: 100px;
+  text-align: center;
+  
+  font-size: 12px;
+}
+
+
+.flex-left {
+  align-content: start;
+  margin-left: 40px;
+  
+}
+.icon {
+  
+  margin: left;
+  width: 40%;
+  text-align: center;
+  
+}
+.left-content {
+  display: flex;
+  
+  height: 70px;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+.daftar{
+  display: flex;
+  padding-left: 20px;
+  gap: 10px;
+
+  
+}
+
+
+.i{
+  padding-top: 5px;
+}
+
+
+.fa-solid{
+  /* padding-top: 15px; */
+  display: flex;
+  justify-content: left;
+}
+
+
+
+.setting{
+ display: flex;
+  padding-right: 20px;
+  gap: 10px;
+}
+
+.dropdown{
+  height: 20px;
+}
+
+/* light dan dark input chexkbox */
+
+input[type="checkbox"] {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  appearance: none;
+  background-color: #434343;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #3664ff;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.5s ea;
+}
+
+/* tata letak input checkbox */
+
+input[type="checkbox"]:checked::before {
+  transform: translateX(20px);
+}
+
+.toggleDarkMode {
+  background-color: #434343;
+  color: #fcfcfc;
+}
+
+input[type="checkbox"] {
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+/* color untuk light dan dark */
+
+.atass .light {
+  background-color: rgb(0, 151, 136); /* Warna latar belakang mode terang */
+}
+
+.atass .dark {
+  background-color: red;
+}
+
+.light {
+  background-color: rgb(255, 255, 255); /* Warna latar belakang mode terang */
+}
+
+.dark {
+  background-color: #181818; /* Warna latar belakang mode gelap */
+  color: rgb(255, 255, 255);
+}
+
+.light .footer {
+  background-color: #f0f0f0; /* Warna latar belakang mode terang */
+}
+
+.dark .footer {
+  background-color: rgb(46, 46, 46); /* Warna latar belakang mode gelap */
+  color: #fcfcfc;
+  background-image: none;
+}
+
+.light .bawah {
+  background-color: rgb(228, 230, 235);
+}
+
+/* footer */

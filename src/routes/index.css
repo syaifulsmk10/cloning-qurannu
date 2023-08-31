@@ -6,18 +6,24 @@
   margin: 0px;
 }
 
+a{
+  text-decoration: none;
+  
+}
 /* Navbar */
 .atas {
   margin-bottom: 20px;
   padding: 0;
   text-align: center;
   height: 210px;
+  
+
 }
 
 .logo {
   height: 6em;
   margin-top: 1.3em;
-  margin-right: 45px;
+  margin-right: 50px;
   color: white;
 }
 
@@ -30,11 +36,9 @@
 }
 
 
-.logos {
-  height: 30px;
-  width: auto;
-  float: left;
-  padding: 15px;
+.logos{
+ float: left;
+ margin: 20px;
 }
 
 
@@ -108,7 +112,7 @@ float: right;
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
-  width: 300px;
+  width: 347px;
   height: 3px;
   margin-top: 40px;
   display: flex;
@@ -192,6 +196,14 @@ float: right;
 
 .light .bawah{
   background-color: rgb(228,230,235);
+}
+
+.dark a{
+  color: #fff;
+}
+
+.light a{
+  color: #000000;
 }
 /* footer */
 
